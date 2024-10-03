@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8"
+<meta name="viewport"Content="width=device-width, initial-scale=1"
+<title>White Water Rafting</title>
+</head>
+<body>
+    <header>
+        <img src="https://picsum.photos/536/354">
+        <nav>
+            <a href="#">Item One</a>
+            <a href="#">Item Two</a>
+            <a href="#">Item Three</a>
+            <a href="#">Item Four</a>
+        </nav>
+    </header>
+    <div id="scroller">
+        <img class="scroll" src="https://picsum.photos/536/354"
+        <img class="scroll" src="https://picsum.photos/536/354"
+        <img class="scroll" src="https://picsum.photos/536/354"
+    </div>
+    <main>
+        <div class="product">
+            <img src="https://picsum.photos/536/354">
+            <p> </p>   
+        </div>
+    </main>
+</body>
+</html>
