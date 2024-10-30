@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
 body{
+
     margin: 0 auto;
-    
+    font-family: "Roboto Condensed";
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
 }
 
 #content{
@@ -13,26 +21,46 @@ max-width: 1600px ;
 #background{
     height: 725px;
 }
-body{
-    background-color: aqua;
+
+header{
+    background-color: rgb(255, 4, 0);
+    font-family: "Edu Australia VIC WA NT Hand Guides";
 }
-header{background-color: rgb(255, 4, 0);}
+
 nav a :hover{
     background-color: black;
     color: aliceblue;
     text-decoration: none;
+    
+    
 }
 
-.home-title{ color: grey;}
+.home-title{ color: grey;
+font-size: 2em;
+margin-top: 10px;
+}
 h4{ color: grey;}
+
 .book, .join{ color: grey;
     text-decoration: none;
+font-size: 18px;
+padding: 15px 30px;
+margin-top: 50px;
+border-radius: 5px;
 }
+
 .book:hover, .join:hover{ color: grey;}
+
 .msg h2{color: grey;}
-.msg p{color: grey;}
+
+.msg p{color: grey;
+font-size: .8em;
+padding-bottom: 15px;
+}
 footer{color: grey;
     font-size: 1.2em;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a{color:grey;
     text-decoration: none;
@@ -43,4 +71,24 @@ footer a:hover{color: grey;
     font-size: 1.2em;
     text-decoration: underline;
 }
-.icon{width: 80px;}
+.icon{width: 80px;
+    padding-top: 10px;
+}
+
+h2{ margin: 0;}
+
+#logo_link{padding-top: 5px;}
+
+nav a{ padding: 35px;}
+
+.msg{ padding: 35px;}
+
+footer .social img{ padding-top: 15px;}
+
+.rivers-card, .camping-card, .rapids-card{margin: 200px 0;}
+
+.card-img{ border: 10px solid black;}
+
+main section img{box-sizing: border-box;
+
+}
