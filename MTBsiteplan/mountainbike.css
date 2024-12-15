@@ -221,3 +221,22 @@ footer {
         font-size: 0.8rem;
     }
 }
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative; /* To allow positioning of the logo */
+}
+
+.logo {
+    position: absolute; /* Allows precise positioning */
+    top: 10px; /* Adjust to suit your layout */
+    left: 10px;
+}
+
+.logo img {
+    height: 150px; /* Adjust the size of your logo */
+    width: auto; /* Maintain aspect ratio */
+    display: block;
+}
